@@ -57,7 +57,7 @@ cd {nombre ambiente}
 source bin/activate
 ```
 
-Si están en Windows, deben cambiar la última línea por `source Scripts/activate.bat`.
+Si están en Windows, deben cambiar la última línea por `call Scripts/activate.bat`.
 
 Después de esto, todos los comandos que usen Python se harán en este entorno virtual: los paquetes se instalarán en el entorno, y cada comando que se ocupe usará esa versión de Python, con los paquetes disponibles para el entorno. Pueden desactivar el entorno escribiendo el comando `deactivate`
 
